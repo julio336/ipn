@@ -6,8 +6,36 @@
   =require twitter-bootstrap-static/fontawesome
   */
 
-  @font-face {
+@font-face {
   font-family: 'Glyphicons Halflings';
   src: url('/assets/glyphicons-halflings-regular.eot');
   src: url('/assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),      url('/assets/glyphicons-halflings-regular.woff') format('woff'), url('/assets/glyphicons-halflings-regular.ttf') format('truetype'), url('/assets/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+.social {
+	float:left;
+	width:130px;
+}
+.social ul {
+	color:#999;
+}
+.social li {
+	list-style:none;
+	padding:5px 0px 5px 30px;
+}
+.social .face {
+	background:url(http://laciudadmedica.com/wp-content/themes/soulmedic/images/sociable/facebook.png) 0px 0px no-repeat;
+}
+
+.social a {
+	color:#999;
+	display:block;
+	outline: none;
+  	text-decoration: none;
+  	list-style: none;
+}
+.social a:hover {
+	color:#fff;
+	text-decoration: none;
+  	list-style: none;
 }
